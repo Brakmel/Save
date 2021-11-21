@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang= "es">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Save</title>
+    <link rel = "stylesheet"
+    href="Home2.css">
+    
+
+</head>
+<style>
+body{
+    margin: 30px;
+  }
+.header {
+    background-color: #f3bad6;
+    background-image: url(Titulo.PNG);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+     
+  }
+.header__img {
+    width: 200px;
+    margin-top: 10px;
+    margin-left:10px;
+  }
+.header__menu {
+    margin-right: 30px;
+  }
+.header__menu ul {
+    display: none;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align:right;
+    margin: 0px 0px 0px -14px;
+    margin-right: 60px;
+}
+.header__menu:hover ul, ul:hover {
+    display: block;
+}
+.header__menu li {
+    margin: 10px 0px;
+}
+.header__menu li a {
+    color: black;
+    text-decoration: none;
+    background-color: #f3bad6;
+    background-image: url(Titulo.PNG);
+}
+.header__menu li a:hover {
+    text-decoration: underline;
+}
+.header__menu--profile {
+    margin-right: 8px;
+    width: 40px;
+}
+.main {
+  height: 300px;
+}
+.main__tittle {
+  color: rgb(212, 34, 198);
+  background-image: url(Titulo.PNG);
+  padding: 1px;
+  height: 30px; 
+  border: 2px solid black;
+  
+}
+.input {
+  background-image: url(Titulo.PNG);
+  border: 2px solid black;
+  border-radius: 25px;
+  color:black;
+  font-family:'Times New Roman', Times, serif;
+  font-size:25px;
+  height: 50px;
+  padding: 0px 20px;
+  width: 27%;
+  outline:none;
+}
+::placeholder {
+  color:black;
+}
+
+.main {
+  display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; 
+    width: 100%;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+.carousel {
+  width: 100%;
+  overflow: scroll;
+  padding: 30px;
+  position: relative;
+}
+.carousel__container {
+  white-space:nowrap;
+  margin: 70px 0px;
+  padding-bottom: 10px;
+}
+.carousel__item {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-right: 10px;
+  display: inline-block;
+  cursor: pointer;
+  transition: 450ms all;
+  transform: center left;
+
+}
+.carousel__item:hover ~ .carousel__item {
+ transform: translate3d(100px, 0, 0);
+}
+.carousel__containe:hover .carousel__item {
+  opacity: 0.3;
+}
+.carousel__containe:hover .carousel__item:hover {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+</style>
+ <body background="Captura.PNG" ></body>
+    <header class="header">
+        <img class="header__img" src="">
+        <div class="header__menu">
+           <div class="header__menu--profile"> 
+             <img src="user.png" alt="usuario">
+             <p>Perfil</p>
+           </div>
+           <ul> 
+            <li><a href="/">Cuenta🌻⭐</a></li> 
+            <li><a href="/">Cerrar Sesion</a></li>
+           </ul>
+          </div>
+    </header>
+<div class="container__buscador">
+  <section class="main">
+      <h2 class="main__tittle">¿Que quieres ver hoy cosita bella del universo?</h2>
+      <input class="input" type= "text"placeholder="buscar..."> 
+    </section>
+</div>
+  <section class="carousel"> 
+    <div class="carousel__container">
+    <div class="carousel__item">
+    </div>
+    <div class="carousel__item">
+    </div>
+    </div>
+  </section>
+</body>
+</html>
