@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet"
+    href="COE.CSS">
+    <script src="JavaScript/Biblia.JS"></script>
+    <title>COE</title>
+</head>
+<body>
+<header><div class="Titulo"><h1>Fast Arena Combat</h1></div>
+  <div class="menu"><div class="header__menu">
+    <div class="header__menu--profile"> 
+      <img src="Imagenes/user.png" alt="usuario">
+    </div>
+    <ul> 
+     <li><a href="Registro.HTML">Convertirme en Deidad</a></li> 
+    </ul>
+   </div></div>
+</header>
+<div class="Combate">
+  <button class="Combatir"><a href="Developers.HTML">History</a></button>
+</div>
+<div class="Combate">
+  <button class="Combatir"><a href="Adalid.HTML">Adalid</a></button>
+</div>
+<div class="Combate">
+  <button class="Combatir"><a href="COE_Combate.HTML">¡Combat!</a></button>
+</div>
+<main class="Fondo">
+  <section class="Reclutados">
+  <div id="img">
+    <button class="B01" onclick="ocultar();">Regresa Adalid</button>
+    <img src="Cartas/01.PNG" alt="Carta numero 1">
+  </div>
+
+  <div id="img02">
+    <button class="B02" onclick="ocultar02();">Regresa Adalid</button>
+    <img src="Cartas/02.PNG" alt="Carta numero 2">
+  </div>
+
+  <div id="img03">
+    <button class="B03" onclick="ocultar03();">Regresa Adalid</button>
+    <img src="Cartas/03.PNG" alt="Carta numero 3">
+  </div>
+  </section>
+
+  <section class="Reclutados2">
+    <div id="img1">
+      <button class="B1" onclick="ocultar1();">Regresa Adalid</button>
+      <img src="Cartas/01.PNG" alt="Carta numero 1">
+    </div>
+  
+    <div id="img2">
+      <button class="B2" onclick="ocultar2();">Regresa Adalid</button>
+      <img src="Cartas/02.PNG" alt="Carta numero 2">
+    </div>
+  
+    <div id="img3">
+      <button class="B3" onclick="ocultar3();">Regresa Adalid</button>
+      <img src="Cartas/03.PNG" alt="Carta numero 3">
+    </div>
+    </section>
+  <div class="Selección_1">
+  <section class="carousel"> 
+        <div class="carousel__container">
+        <div class="carousel__item">
+          <div class="Carta01" title="Warrior"></div>
+          <button class="B01" onclick="mostrar();"><p>Invocar Adalid</p></button>
+        </div>
+        <div class="carousel__item">
+          <div class="Carta02" title="Priest"></div>
+          <button class="B02" onclick="mostrar02();"><p>Invocar Adalid </p></button>
+        </div>
+        <div class="carousel__item">
+          <div class="Carta03" title="Rogue"></div>
+          <button class="B03" onclick="mostrar03();"><p>Invocar Adalid </p></button>
+        </div>
+        </div>
+      </div>
+</section>
+
+<div class="Selección_2">
+  <section class="carousel"> 
+        <div class="carousel__container">
+        <div class="carousel__item">
+          <div class="Carta02" title="Priest"></div>
+          <button class="B01" onclick="mostrar2();"><p>Invocar Adalid</p></button>
+        </div>
+        <div class="carousel__item">
+          <div class="Carta03" title="Rogue"></div>
+          <button class="B02" onclick="mostrar3();"><p>Invocar Adalid</p></button>
+        </div>
+        <div class="carousel__item">
+          <div class="Carta01" title="Warrior"></div>
+          <button class="B03" onclick="mostrar1();"><p>Invocar Adalid</p></button>
+        </div>
+        </div>
+      </div>
+</section>
+</div>
+</div>
+</div>
+</body>
+</html>

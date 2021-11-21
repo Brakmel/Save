@@ -1,0 +1,206 @@
+body{
+    zoom: 100%;
+    background-color: rgb(75, 122, 167);
+}
+header {
+  background-color: rgba(26, 128, 153, 0.678);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid #dfaf12;
+  color: #dfaf12;
+}
+.Titulo {
+  background-color: rgba(26, 128, 153, 0.678);
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+ul {
+  list-style-type:none;
+}
+.menu {
+  
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.header__menu ul {
+  display: none;
+  padding: 0px;
+  position: absolute;
+  width: 100px;
+  text-align:right;
+  margin: 0px 0px 0px -14px;
+  margin-right: 60px;
+}
+.header__menu:hover ul, ul:hover {
+  display: block;
+}
+.header__menu li {
+  margin: 0px 10px;
+}
+.header__menu li a {
+  color: black;
+  text-decoration: none;
+  background-color: #dfaf12;
+}
+.header__menu li a:hover {
+  text-decoration: underline;
+}
+.header__menu--profile {
+  margin-right: 10px;
+  width: 80px;
+}
+.Combate {
+  background-color: rgb(224, 154, 24);
+  width: 100%;
+  height: 50px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.combatir {
+  background-color: rgb(224, 154, 24);
+  width: 50px;
+  height: 50px;
+}
+.Selección_2 {
+  width: 25%;
+  height: 100%;
+  border: 10px solid #dfaf12;
+}
+.Selección_1 {
+  width: 25%;
+  height: 100%;
+  border: 10px solid #dfaf12;
+}
+.carousel {
+    background-color: rgb(22, 150, 235);
+    width: 80%;
+    height: 350px;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+    
+
+}
+.carousel__item {
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    
+}
+.Fondo {
+    background-color: rgb(24, 186, 207);
+    width:100%;
+    height:80%;
+    display: flex;
+    border: 2px solid #dfaf12;
+    
+    
+}
+.Reclutados {
+    border: 2px solid rgb(224, 154, 24);
+    width:30%;
+    height:700px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    background-color: rgb(75, 122, 167);
+  }
+
+.Reclutados2 {
+  border: 2px solid rgb(224, 154, 24);
+  width:30%;
+  height:700px;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  background-color: rgb(75, 122, 167)
+}
+button {
+    background-color: rgb(24, 186, 207);
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    color: azure;
+  }
+  .Carta01 {
+    background-image: url(Cartas/01.PNG);
+    height: 310px;
+    width: 270px;
+  }
+  .Carta02 {
+    background-image: url(Cartas/02.PNG);
+    height: 310px;
+    width: 270px;
+  }
+  .Carta03 {
+    background-image: url(Cartas/03.PNG);
+    height: 310px;
+    width: 270px;
+  }
+
+  /*Reclutar 2*/
+
+  .Carta1 {
+    background-image: url(Cartas/01.PNG);
+    height: 310px;
+    width: 270px;
+  }
+  .Carta2 {
+    background-image: url(Cartas/02.PNG);
+    height: 310px;
+    width: 270px;
+  }
+  .Carta3 {
+    background-image: url(Cartas/03.PNG);
+    height: 310px;
+    width: 270px;
+  }
+  
+  /*Reclutar 1*/
+
+  #img{
+    display: none;
+    height: 310px;
+    width: 270px;
+  }
+  #img02{
+    display: none;
+    height: 310px;
+    width: 270px;
+  }
+  #img03{
+    display: none;
+    height: 310px;
+    width: 270px;
+  }
+
+  #img1{
+    display: none;
+    height: 310px;
+    width: 270px;
+  }
+  #img2{
+    display: none;
+    height: 310px;
+    width: 270px;
+  }
+  #img3{
+    display: none;
+    height: 310px;
+    width: 270px;
+  }
+  
