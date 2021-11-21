@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulario</title>
+        <link href="estilo.css" type="text/css" rel="stylesheet">
+    </head>
+    <body> 
+        
+        <div class="Lobby">
+        <a href="OMM Entrega.html"> 
+            <button>
+              Regresar al Lobby
+            </button>
+        </div>
+
+        <section id="formulario">
+            <p id="titulo">Formulario de Registro</p>
+            
+            <form action="" method="POST">
+                
+                <input type="text" id="nom" name="nom" placeholder="Ingrese Nombre" required>
+                <input type="text" id="ape" name="ape" placeholder="Ingrese Apellido" >
+                <input type="number" id="edad" name="edad" placeholder="Ingrese Edad" required min="0" max="100">
+                <input type="email" id="mail" name="mail" placeholder="Ingrese Correo">
+                <input type="password" id="pass" name="pass" placeholder="Contraseña">
+                <input type="submit" value="Enviar">
+
+            </form>
+        </section>
+        
+    </body>
+</html>
